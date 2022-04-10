@@ -1,0 +1,8 @@
+$menu-text: Oswald;
+$text: Droid Sans;
+
+@mixin font($fs: 14px, $fw: 400, $lh: 1.43) {
+   font-size: $fs;
+   font-weight: $fw;
+   line-height: $lh; 
+}
