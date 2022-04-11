@@ -35,14 +35,12 @@
 .header-menu__link {
     font-style: $menu-text;
     @include font(14px, 400, 1.43);
+    text-transform: uppercase;
     color: #FFFFFF;
         &:focus,
         &:hover {
             color: #CF404D;
             text-shadow: 0.5px 1px 1px rgb(248, 246, 247);
-            // text-shadow: 1px 1px 2px rgb(241, 239, 239),
-            // 0 0 1em rgb(231, 111, 111),
-            // 0 0 0.2em rgb(208, 208, 236);
         }
 }
 .header-social {

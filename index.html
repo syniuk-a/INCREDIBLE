@@ -10,97 +10,114 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap" rel="stylesheet">
     <!-- modern normalize -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
-        integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
     <!-- my style -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.min.css">
     <title>INCREDIBLE</title>
 </head>
 
-<body>
-    <div class="wrapper">
-        <header class="header">
-            <div class="header-logo">
-                <a href="#" class="logo-link link">
-                    <svg class="logo">
-                        <use href="./src/icons/sprite.svg#logo-1" class="logo-img"></use>
-                    </svg>
-                </a>
-                <ul class="header-menu__list list">
-                    <li class="header-menu__item">
-                        <a href="#" class="header-menu__link link">Home</a>
-                    </li>
-                    <li class="header-menu__item">
-                        <a href="#" class="header-menu__link link">About</a>
-                    </li>
-                    <li class="header-menu__item">
-                        <a href="#" class="header-menu__link link">Gallery</a>
-                    </li>
-                    <li class="header-menu__item">
-                        <a href="#" class="header-menu__link link">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="header-menu">
+<body class="wrapper">
+    <header class="header">
+        <div class="header-logo">
+            <a href="#" class="logo-link link">
+                <svg class="logo">
+                    <use href="./src/icons/sprite.svg#logo-1" class="logo-img"></use>
+                </svg>
+            </a>
+            <ul class="header-menu__list list">
+                <li class="header-menu__item">
+                    <a href="#" class="header-menu__link link">Home</a>
+                </li>
+                <li class="header-menu__item">
+                    <a href="#" class="header-menu__link link">About</a>
+                </li>
+                <li class="header-menu__item">
+                    <a href="#" class="header-menu__link link">Gallery</a>
+                </li>
+                <li class="header-menu__item">
+                    <a href="#" class="header-menu__link link">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="header-menu">
+        </div>
+        <div class="header-social">
+            <ul class="header-social__list list">
+                <li class="header-social__link">
+                    <a href="#" class="header-social__link link">
+                        <svg class="header-social__icon">
+                            <use href="./src/icons/sprite.svg#facebook" class="header-icon" width="23" heigth="17">
+                            </use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="header-social__link">
+                    <a href="#" class="header-social__link link">
+                        <svg class="header-social__icon">
+                            <use href="./src/icons/sprite.svg#twitter" class="header-icon"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="header-social__link">
+                    <a href="#" class="header-social__link link">
+                        <svg class="header-social__icon">
+                            <use href="./src/icons/sprite.svg#ball" class="header-icon"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="header-social__link">
+                    <a href="#" class="header-social__link link">
+                        <svg class="header-social__icon">
+                            <use href="./src/icons/sprite.svg#be" class="header-icon"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="header-social__link">
+                    <a href="#" class="header-social__link link">
+                        <svg class="header-social__icon">
+                            <use href="./src/icons/sprite.svg#w" class="header-icon"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="header-social__link">
+                    <a href="#" class="header-social__link link">
+                        <svg class="header-social__icon">
+                            <use href="./src/icons/sprite.svg#instagram" class="header-icon"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="header-social__link">
+                    <a href="#" class="header-social__link link">
+                        <svg class="header-social__icon">
+                            <use href="./src/icons/sprite.svg#mail" class="header-icon"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+        <div class="hero-section">
+            <!-- <img src="./src/img/IMAGE@2x.jpg" alt="" class="hero-img" width="100%" height="500"> -->
+            <h1 class="hero-title">Welcome to the incredible</h1>
+            <ul class="hero-btn__list list">
+                <li class="hero-btn__title">
+                    <a href="#" class="hero-btn__link link">Button Text</a>
+                </li>
+                <li class="hero-btn__title">
+                    <a href="#" class="hero-btn__link link">Button Text</a>
+                </li>
+            </ul>
+        </div>
 
-            </div>
-            <div class="header-social">
-                <ul class="header-social__list list">
-                    <li class="header-social__link">
-                        <a href="#" class="header-social__link link">
-                            <svg class="header-social__icon">
-                                <use href="./src/icons/sprite.svg#facebook" class="header-icon" width="23" heigth="17">
-                                </use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="header-social__link">
-                        <a href="#" class="header-social__link link">
-                            <svg class="header-social__icon">
-                                <use href="./src/icons/sprite.svg#twitter" class="header-icon"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="header-social__link">
-                        <a href="#" class="header-social__link link">
-                            <svg class="header-social__icon">
-                                <use href="./src/icons/sprite.svg#ball" class="header-icon"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="header-social__link">
-                        <a href="#" class="header-social__link link">
-                            <svg class="header-social__icon">
-                                <use href="./src/icons/sprite.svg#be" class="header-icon"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="header-social__link">
-                        <a href="#" class="header-social__link link">
-                            <svg class="header-social__icon">
-                                <use href="./src/icons/sprite.svg#w" class="header-icon"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="header-social__link">
-                        <a href="#" class="header-social__link link">
-                            <svg class="header-social__icon">
-                                <use href="./src/icons/sprite.svg#instagram" class="header-icon"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="header-social__link">
-                        <a href="#" class="header-social__link link">
-                            <svg class="header-social__icon">
-                                <use href="./src/icons/sprite.svg#mail" class="header-icon"></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </header>
-    </div>
+
+    </main>
+    <!-- <div class="wrapper"> -->
+
+
+
+    <!-- </div> -->
 
 
 </body>
