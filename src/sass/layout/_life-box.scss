@@ -1,0 +1,18 @@
+.life-box__section {
+  padding-top: 57px;
+  padding-bottom: 72px;
+}
+.life-box__title {
+  margin-bottom: 22px;
+  font-family: $menu-text;
+  @include font(31px, 400, 1.16);
+  text-align: center;
+  text-transform: uppercase;
+  color: #313131;
+}
+.life-box__text {
+  font-family: $text;
+  @include font(19px, 400, 1.58);
+  text-align: center;
+  color: rgba(115, 115, 115, 0.74);
+}

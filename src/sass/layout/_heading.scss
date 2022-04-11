@@ -1,0 +1,19 @@
+.heading-section {
+  padding-top: 57px;
+  padding-bottom: 62px;
+}
+.heading-section__title {
+  text-align: center;
+  font-family: $menu-text;
+  @include font(31px, 400, 1.61);
+  text-transform: uppercase;
+  color: #313131;
+}
+.heading-section__subtitle {
+  text-align: center;
+  margin-top: 22px;
+
+  font-family: $text;
+  @include font(19px, 400, 1.58);
+  color: rgba(115, 115, 115, 0.74);
+}

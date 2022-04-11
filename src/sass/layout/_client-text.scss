@@ -1,0 +1,40 @@
+.client-tecst__section {
+  padding-top: 44px;
+  padding-bottom: 44px;
+  background: #cf404d;
+}
+.client-text__form-contaner {
+}
+.client-text__form {
+  display: flex;
+  justify-content: space-between;
+}
+.client-text__input {
+  font-family: $menu-text;
+  @include font(31px, 400, 1.16);
+  width: 100%;
+  margin-right: 50px;
+  background-color: transparent;
+  border: transparent;
+  &::placeholder {
+    color: #ffffff;
+    opacity: 1;
+  }
+}
+.client-text__btn {
+  width: 127px;
+  height: 47px;
+  font-family: $menu-text;
+  @include font(16px, 400, 1.31);
+  text-align: center;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+  background-color: transparent;
+  &:focus,
+  &:hover {
+    border: 4px solid #ffffff;
+    color: #cf404d;
+    background-color: #ffffff;
+  }
+}

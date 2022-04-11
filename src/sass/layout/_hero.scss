@@ -1,36 +1,55 @@
-.main{
-    width: 100%;
-}
-.hero-img {
-    background-position: center center;
-    z-index: -1;
-    width: 100%;
-    height: 800px;
-}
 .hero-section {
-    background-image: 
-    linear-gradient(to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)),
-    url("/img/IMAGE@2x.jpg");
-    background-size: cover;
-    background-position: center;
-    width: 800px;
-    height: 800px;
-    padding-top: 305px;
-    padding-left: 245px;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url('/img/IMAGE@2x.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding: 305px 245px;
 }
 
 .hero-title {
-    font-family: $menu-text;
-@include font(50px, 400, 1.14);
-    text-transform: uppercase;
-    
-    color: #FFFFFF;
+  width: 522px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: $menu-text;
+  @include font(50px, 400, 1.14);
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
-.hero-btn__list {}
+.hero-btn__list {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
 
-.hero-btn__title {}
+.hero-btn__title {
+  margin-right: 10px;
+  &:last-child {
+    margin-right: 0px;
+  }
+}
 
-.hero-btn__link {}
+.hero-btn__link {
+  font-family: $menu-text;
+  @include font(16px, 400, 1.31);
+  text-align: center;
+  color: #ffffff;
+  padding-top: 11px;
+
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  width: 112px;
+  height: 47px;
+  &:hover,
+  &:focus {
+    background-color: #cf404d;
+    font-size: 18px;
+    border: 2px solid #ffffff;
+    padding-top: 9px;
+  }
+}

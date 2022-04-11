@@ -1,0 +1,18 @@
+.gallary-section {
+  padding-bottom: 73px;
+}
+.gallary-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gallary-item {
+  margin-right: 20px;
+  margin-top: 20px;
+  &:nth-child(4n + 4) {
+    margin-right: 0;
+  }
+  &:nth-child(-n + 4) {
+    margin-top: 0;
+  }
+}

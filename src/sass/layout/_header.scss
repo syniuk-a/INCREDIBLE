@@ -1,70 +1,76 @@
 .header {
-    width: 329px;
-    height: 100vw;
-    padding-top: 206px;
-    padding-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background: #2D3E4F;
+  width: 329px;
+  height: 100vw;
+  padding-top: 206px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #2d3e4f;
 }
-.header-logo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;}
+.header-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .logo {
-    width: 139px;
-    height: 25px;
-    .logo-img {
-        fill: #FFFFFF;
-        &:hover,
-        &:focus {
-            fill: #CF404D;
-        }
+  width: 139px;
+  height: 25px;
+  .logo-img {
+    fill: #ffffff;
+    &:hover,
+    &:focus {
+      fill: #cf404d;
     }
+  }
 }
 .header-menu__list {
-    margin-top: 79px;
+  margin-top: 79px;
 }
 .header-menu__item {
-    margin-bottom: 40px;
-    &:last-child{
-        margin-bottom: 0;
-    }
+  margin-bottom: 40px;
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 .header-menu__link {
-    font-style: $menu-text;
-    @include font(14px, 400, 1.43);
-    text-transform: uppercase;
-    color: #FFFFFF;
-        &:focus,
-        &:hover {
-            color: #CF404D;
-            text-shadow: 0.5px 1px 1px rgb(248, 246, 247);
-        }
+  font-style: $menu-text;
+  @include font(14px, 400, 1.43);
+  text-transform: uppercase;
+  color: #ffffff;
+  &:focus,
+  &:hover {
+    color: #cf404d;
+    // так себе эффект. нужно поиграть с медия
+    font-size: 18px;
+    margin: -4px -8px;
+  }
 }
 .header-social {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .header-social__list {
-    display: flex;
+  display: flex;
 }
 
 .header-social__link {
-    margin-right: 3px;
-    &:last-child{
-        margin-right: 0;
-    }
+  margin-right: 3px;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .header-social__icon {
-    width: 23px;
-    height: 17px;
-    fill: #FFFFFF;
-    &:hover,
-    &:focus {
-        stroke: #CF404D;
-        stroke-width: 1px;
-    }
+  width: 23px;
+  height: 17px;
+  fill: #ffffff;
+  &:hover,
+  &:focus {
+    stroke: #cf404d;
+    stroke-width: 1px;
+    width: 25px;
+    height: 19px;
+    margin-bottom: -2px;
+  }
 }

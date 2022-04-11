@@ -1,0 +1,12 @@
+.footer {
+  padding-top: 24px;
+  padding-bottom: 28px;
+}
+.foter-text {
+  text-align: center;
+  font-family: $menu-text;
+  @include font(16px, 400, 1.25);
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.74);
+}
